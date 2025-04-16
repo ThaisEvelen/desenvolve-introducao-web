@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <h3>Dados Pessoais</h3>
+    <form action="pagina_destino.html" method="post">
+        <p>
+            <label for="Nome">Nome</label>
+            <input type="text" placeholder=" Digite seu nome" id="Nome" />
+        </p>
+        <p>
+            <label for="E-mail">E-mail</label>
+            <input type="text" placeholder="Digite seu e-mail" id="E-mail" />
+        </p>
+        <p>
+            <label for="Telefone">Telefone</label>
+            <input type="number" placeholder="Digite seu telefone" id="Telefone" />
+        </p>
+        <p>
+            <h4>Estado Civil:</h4>
+        </P>
+        <P>
+            <input type="radio" id="Solteiro" name="estado-civil" />
+            <label for="Solteiro">Solteiro(a)</label>
+            <input type="radio" id="Casado" name="estado-civil" />
+            <label for="Casado">Casado(a)</label>
+            <input type="radio" id="Divorciado" name="estado-civil" />
+            <label for="Divorciado">Divorciado(a)</label>
+            <input type="radio" id="Viuvo" name="estado-civil" />
+            <label for="Viuvo">Viúvo(a)</label>
+            <input type="radio" id="União estavel" name="estado-civil" />
+            <label for="União estavel">União estável</label>
+        </P>
+        <P>
+            <h4>Faixa Etária:</h4>
+        </P>
+        <p>
+            <input type="radio" id="Menor de 18" name="faixa-etaria" />
+            <label for="Menor de 18">Menor de 18 anos</label>
+            <input type="radio" id="entre 18 e 25" name="faixa-etaria" />
+            <label for="entre 18 e 25">De 18 a 25 anos</label>
+            <input type="radio" id="entre 26 e 35" name="faixa-etaria" />
+            <label for="entre 26 e 35">De 26 a 35 anos</label>
+            <input type="radio" id="entre 36 e 45" name="faixa-etaria" />
+            <label for="entre 36 e 45">De 36 a 45 anos</label>
+            <input type="radio" id="entre 46 e 55" name="faixa-etaria" />
+            <label for="entre 46 e 55">De 46 a 55 anos</label>
+            <input type="radio" id="Acima de 55" name="faixa-etaria" />
+            <label for="Acima de 55">Acima de 55 anos</label>
+        </p>
+        <p>
+        <p>
+            <h4>Escolaridade:</h4>
+        </p>
+        <select>
+            <option>Alfabetizado- sei ler e escrever</option>
+            <option>Ensino fundamental incompleto</option>
+            <option>Ensino fundamental completo</option>
+            <option>Ensino Médio incompleto</option>
+            <option>Ensino Médio completo</option>
+            <option>Ensino Superior incompleto</option>
+            <option>Ensino Superior completo</option>
+            <option>Mestrado</option>
+            <option>Doutorado</option>
+
+        </select>
+        </p>
+        <P>
+        <input type="checkbox" id="termos">
+        <label for="termos">Autorizo o compartilhamento das minhas respostas com terceiros</label>
+    </P>
+    <input type="submit" value="Enviar"/>
+    </form>
+</body>
+
+</html>
