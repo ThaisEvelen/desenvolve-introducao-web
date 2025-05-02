@@ -4,6 +4,52 @@
 .background { color: #ffe5ea; }
 */
 
+.main footer {
+    margin: 4%;
+}
+
+.main footer {
+    border: solid 2px;
+    padding: 0.5em #2b4a78;
+}
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    margin: 1em;
+    text-align: center;
+}
+
+.page-wrapper {
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+
+#Zen-intro {
+    height: 550px;
+}
+
+#design-archives {
+    display: none;
+}
+
+#zen-intro header {
+    background-color: #2b4a78;
+    color: #ffe5ea;
+}
+
+#zen-intro header h1,
+#zen-intro header h2 {
+    display: inline-block;
+}
+
+#zen-intro header h1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 html {
     background: #ffe5ea;
     color: #2b4a78;
@@ -15,13 +61,33 @@ html {
 p {
     text-indent: 1em;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     text-align: center;
 }
-h1 {font-size: 1.8rem;}
-h2 {font-size: 1.4erm;}
-h3 {font-size: 1.2rem;}
 
-.summary {text-align: right;}
-.main p {line-height: 1.5;}
-abbr {font-variant: small-caps;}
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4erm;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.summary {
+    text-align: right;
+}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {
+    font-variant: small-caps;
+}
