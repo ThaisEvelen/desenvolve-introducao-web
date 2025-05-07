@@ -4,6 +4,23 @@
 .background { color: #ffe5ea; }
 */
 
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    border-right: #2b4a78 solid 1px;
+    padding-right: 2%;
+}
+#design-selection {
+    position: absolute;
+    top: 330px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
 .main footer {
     margin: 4%;
 }
@@ -12,6 +29,7 @@
     border: solid 2px;
     padding: 0.5em #2b4a78;
 }
+
 aside ul {
     list-style-type: none;
 }
