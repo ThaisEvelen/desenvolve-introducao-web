@@ -1,8 +1,30 @@
 /* Color Theme Swatches in Hex */
 /*.principal { color: #2b4a78; }
-.destaque {color: #d16c7a}
+.destaque {color: #e63963 }
 .background { color: #ffe5ea; }
 */
+
+a {
+    color: #e63963;
+}
+
+a:hover {
+    color: #e6396481;
+}
+
+.main p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.design-selection li {
+    border-top: #2b4a78 solid 1px;
+}
+
+.design-selection li:last-of-type {
+    border-bottom: #2b4a78 solid 1px;
+}
 
 .supporting footer {
     display: flex;
