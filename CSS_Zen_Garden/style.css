@@ -14,7 +14,7 @@ a:hover {
 
 .main p:first-of-type::first-letter {
     font-size: 3em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia;
     float: left;
 }
 
