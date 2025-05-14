@@ -4,52 +4,6 @@
 .background { color: #ffe5ea; }
 */
 
-@media print {
-    html{
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    #zen-intro header{
-        background-color: #ffe5ea;
-        color: #2b4a78;
-    }
-
-    .design-selection {
-        position: static;
-        width: 100%;
-    }
-
-    .explanation {
-        border-right: none;
-        width: 100%;
-    }
-    
-}
-
-@media screen and (max-width:768px) {
-    .design-selection {
-        position: static;
-        width: 100%;
-    }
-
-    .explanation {
-        border-right: none;
-        width: 100%;
-    }
-
-    #zen-intro {
-        height: auto;
-    }
-
-    .participation {
-        flex-direction: column;
-    }
-
-    p {
-        text-indent: 0;
-    }
-}
-
 a {
     color: #e63963;
 }
@@ -121,7 +75,7 @@ a:hover {
 
 .design-selection {
     position: absolute;
-    top: 310px;
+    top: 500px;
     left: 62%;
     padding-left: 1%;
     padding-right: 1%;
@@ -178,7 +132,7 @@ html {
     background: #ffe5ea;
     color: #2b4a78;
 
-    font-size:  18px;
+    font-size: 18px;
     font-family: 'Arial', 'sans-serif';
 }
 
@@ -197,7 +151,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.4erm;
+    font-size: 1.4rem;
 }
 
 h3 {
@@ -214,4 +168,51 @@ h3 {
 
 abbr {
     font-variant: small-caps;
+}
+
+
+@media print {
+    html {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #zen-intro header {
+        background-color: #ffe5ea;
+        color: #2b4a78;
+    }
+
+    .design-selection {
+        position: static;
+        width: 100%;
+    }
+
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .design-selection {
+        position: static;
+        width: 100%;
+    }
+
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+
+    #zen-intro {
+        height: auto;
+    }
+
+    .participation {
+        flex-direction: column;
+    }
+
+    p {
+        text-indent: 0;
+    }
 }
