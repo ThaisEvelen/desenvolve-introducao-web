@@ -4,6 +4,52 @@
 .background { color: #ffe5ea; }
 */
 
+@media print {
+    html{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #zen-intro header{
+        background-color: #ffe5ea;
+        color: #2b4a78;
+    }
+
+    .design-selection {
+        position: static;
+        width: 100%;
+    }
+
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .design-selection {
+        position: static;
+        width: 100%;
+    }
+
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+
+    #zen-intro {
+        height: auto;
+    }
+
+    .participation {
+        flex-direction: column;
+    }
+
+    p {
+        text-indent: 0;
+    }
+}
+
 a {
     color: #e63963;
 }
@@ -73,7 +119,7 @@ a:hover {
     padding-right: 2%;
 }
 
-#design-selection {
+.design-selection {
     position: absolute;
     top: 310px;
     left: 62%;
@@ -105,7 +151,7 @@ aside ul li {
     margin: auto;
 }
 
-#Zen-intro {
+#zen-intro {
     height: 550px;
 }
 
@@ -132,7 +178,7 @@ html {
     background: #ffe5ea;
     color: #2b4a78;
 
-    font: size 18px;
+    font-size:  18px;
     font-family: 'Arial', 'sans-serif';
 }
 
