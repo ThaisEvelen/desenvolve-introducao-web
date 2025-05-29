@@ -90,4 +90,13 @@ footer {
     header {
         padding-top: 0;
     }
+    .destaque {
+    position: absolute;
+    top: 530px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
+
+}
+
